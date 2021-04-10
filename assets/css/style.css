@@ -36,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-p {
+p  {
     font-size: 16px;
     color: var(--darkness);
 }
@@ -117,6 +117,7 @@ section.section-column {
 
 .tile-label {
     background-color: var(--darkness);
+    color: var(--trying_w);
     height: -moz-fit-content;
     width: -moz-fit-content;
     position: absolute;
@@ -131,8 +132,8 @@ section.section-column {
 }
 
 .tile-label h4, .tile-label p {
-    background-color: inherit;
     color: var(--trying_w);
+    background-color: unset;
 }
 
 .tile-others {
@@ -142,12 +143,17 @@ section.section-column {
 
 .contact-links {
     text-decoration: none;
+    display: flex;
+    flex: 1 1 100%;
+}
 
+#section-contact {
+    justify-content: right !important;
 }
 
 #tile-head {
     order: 0;
-    flex: 6 1 60%;
+    flex: 8 1 100%;
     background-image: url("../images/IMG_4642_1.JPG");
     background-size: cover;
 }

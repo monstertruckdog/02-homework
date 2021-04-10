@@ -45,7 +45,7 @@ Once the assignment is completed by the student it should be a brand new web pag
 
 The following example of the explected end product for the assignment was provided in the homework documentation:
 
-<img src=".assets/images/"PORTFOLIO EXAMPLE".jpg" width=50% height=50%>
+<img src=".assets/images/PORTFOLIO EXAMPLE.jpg" width=50% height=50%>
 
 -----
 
