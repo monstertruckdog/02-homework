@@ -96,6 +96,12 @@ section.section-column {
     padding-left: 12px;
 }
 
+.section-column p {
+    border-left: solid 2px;
+    border-left-color: var(--darkness);
+    padding-left: 12px;
+}
+
 .section-content {
     display: flex;
     flex-direction: row;
@@ -147,8 +153,8 @@ section.section-column {
     flex: 1 1 100%;
 }
 
-#section-contact {
-    justify-content: right !important;
+.contact-links li {
+    padding-right: 72px;
 }
 
 #tile-head {
@@ -177,3 +183,10 @@ section.section-column {
     background-image: url("../images/IMG_4815_1.jpg");
     background-size: contain;
 }
+
+@media screen and (max-width: 768px) {
+    main,
+    .section-container {
+      flex-direction: column;
+      margin-left: 2%;
+    }

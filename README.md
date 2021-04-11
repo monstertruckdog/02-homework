@@ -51,7 +51,13 @@ The following example of the explected end product for the assignment was provid
 
 ## Description of Work
 
-* TBD
+* Created entire HTML and CSS styling from scratch
+  - Created header section with right positioned nav links directed to sections on page
+  - Developed page layout and styling aesthetics
+  - Created 5 links for (*future*) personally developed projects as responsive tiles, complete with background images of the author
+  - Create a "Contact" section with links to author's email, LinkedIn and GitHub pages
+  - Made page layout responsive to a range of screen sizes
+
 
 -----
 
