@@ -110,15 +110,19 @@ section.section-column {
 }
 
 .proj-tiles {
+    /*
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    */
     background: var(--trying_w);
-    height: 160px;
-    width: 480px;
+    height: 50vh;
+    width: 40vw;
     border: solid 2px var(--darkness);
     position: relative;
+    margin: 7px;
+    flex: 0 0 auto;
 }
 
 .tile-label {
@@ -159,7 +163,7 @@ section.section-column {
 
 #tile-head {
     order: 0;
-    flex: 8 1 100%;
+    flex: 2 1 auto;
     background-image: url("../images/IMG_4642_1.JPG");
     background-size: cover;
 }
@@ -190,3 +194,4 @@ section.section-column {
       flex-direction: column;
       margin-left: 2%;
     }
+}
