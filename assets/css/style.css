@@ -118,7 +118,7 @@ section.section-column {
     */
     background: var(--trying_w);
     height: 50vh;
-    width: 40vw;
+    min-width: 320px;
     border: solid 2px var(--darkness);
     position: relative;
     margin: 7px;
@@ -163,7 +163,10 @@ section.section-column {
 
 #tile-head {
     order: 0;
-    flex: 2 1 auto;
+    flex: 2;
+    flex-basis: 100%;
+    /*width: 100vw;*/
+    position: relative;
     background-image: url("../images/IMG_4642_1.JPG");
     background-size: cover;
 }
