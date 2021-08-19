@@ -79,13 +79,6 @@ section.section-column {
 }
 
 .section-column .section-lr .section-title {
-    /* Wanted to use this: 
-    
-        width: -moz-max-content
-        
-       but prefer to have section headers align down page.
-       Instead, using the maximum length of the longest "content,"
-       which is this one, border-block-width: */
     width: 135px;
     padding-right: 12px;
 }
@@ -110,19 +103,13 @@ section.section-column {
 }
 
 .proj-tiles {
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    */
     background: var(--trying_w);
-    height: 50vh;
+    height: 30vh;
     min-width: 320px;
     border: solid 2px var(--darkness);
     position: relative;
     margin: 7px;
-    flex: 0 0 auto;
+    flex: 1 0 auto;
 }
 
 .tile-label {
@@ -165,7 +152,7 @@ section.section-column {
     order: 0;
     flex: 2;
     flex-basis: 100%;
-    /*width: 100vw;*/
+    min-width: 320px;
     position: relative;
     background-image: url("../images/IMG_4642_1.JPG");
     background-size: cover;
